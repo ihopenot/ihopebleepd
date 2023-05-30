@@ -4,13 +4,13 @@
 
 固件适配TI CC2640主控，实测能用的汉朔电子价签型号为Stellar-M3N@ E31A和Stellar-L3N@ E31A。
 
-固件是基于https://github.com/muyuchl/cc2640BleEpd这个仓库的源码改的。添加了4阶灰度的实现和对接了下web界面，原作者的android app有点难用。
+固件是基于[https://github.com/muyuchl/cc2640BleEpd](https://github.com/muyuchl/cc2640BleEpd)这个仓库的源码改的。添加了4阶灰度的实现和对接了下web界面，原作者的android app有点难用。
 
-web界面是基于https://github.com/reece15/stellar-L3N-etag这个仓库的web_tools改的，删了点固件里没实现的功能，加了些灰度图相关的功能。因为传图的时候有时候蓝牙会自己断掉，不知道什么原因，所以在web端还加上了断线重发的功能。
+web界面是基于[https://github.com/reece15/stellar-L3N-etag](https://github.com/reece15/stellar-L3N-etag)这个仓库的web_tools改的，删了点固件里没实现的功能，加了些灰度图相关的功能。因为传图的时候有时候蓝牙会自己断掉，不知道什么原因，所以在web端还加上了断线重发的功能。
 
 ## Install
 
-源码编译参考https://github.com/muyuchl/cc2640BleEpd/blob/main/doc/usage.txt和https://www.cnblogs.com/myfish3/p/14404414.html
+源码编译参考[https://github.com/muyuchl/cc2640BleEpd/blob/main/doc/usage.txt](https://github.com/muyuchl/cc2640BleEpd/blob/main/doc/usage.txt)和[https://www.cnblogs.com/myfish3/p/14404414.html](https://www.cnblogs.com/myfish3/p/14404414.html)
 
 编译时添加宏EPD_4IN2指定4.2寸屏版本，否则默认编译2.13寸的屏
 
